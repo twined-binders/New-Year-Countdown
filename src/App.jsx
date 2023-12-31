@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Countdown from "react-countdown";
 
 function App() {
-  const [message, setNewMessage] = useState(["Goodbye 2023", "Terimakasih ❤"]);
+  const [message, setNewMessage] = useState(["Goodbye 2024", "Terimakasih ❤"]);
 
   const particlesInit = async (engine) => {
     await loadFireworksPreset(engine);
@@ -25,7 +25,7 @@ function App() {
           <Typewriter words={message} loop={false} cursor cursorStyle={"_"} />
         </span>
         <div className="z-50 text-white text-2xl font-bold">
-          <Countdown date={Date.now() + remainTime()} onComplete={() => setNewMessage(["Welcome 2024 🎉", "May God Bless This Year"])} />
+          <Countdown date={Date.now() + remainTime()} onComplete={() => setNewMessage(["Welcome 2025 🎉", "May God Bless This Year"])} />
         </div>
       </div>
     </>
