@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <>
-      <Particles init={particlesInit} options={{ preset: "fireworks", fpsLimit: 30 }} />
+      <Particles init={particlesInit} options={{ preset: "fireworks", fpsLimit: 12 }} />
       <div className="flex flex-col justify-center items-center gap-5 min-h-screen ">
         <span className="text-white text-4xl font-bold z-50">
           <Typewriter words={message} loop={false} cursor cursorStyle={"_"} />
